@@ -3,7 +3,8 @@ import App from "./App.vue";
 import router from "./router";
 import store from "./store";
 
-require('./assets/styles.css');
+require("@/assets/styles.css");
+//require("@/assets/form.css");
 
 createApp(App)
   .use(store)
